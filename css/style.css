@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	width: 100%;
+}
+.d-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#bg-img {
+	background-image: url(../img/Group2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 930px;
+	width: 900px;
+}
+form {
+	width: 700px;
+	height: 600px;
+	background-color: #f5f5f5;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+.form-header {
+	width: 700px;
+	height: 100px;
+	 border-radius: 10px 10px 0 0;
+	background-color: #34b7ce;
+	color: white;
+	font-size: 2rem;
+}
+.ellipse {
+	width: 70px;
+	height: 70px;
+	background-color: #259cb1;
+	margin-right: 50px;
+	border-radius: 70px;
+}
+.left-part {
+	margin: 30px;
+	margin-top: 25%;
+	height: 300px;
+	align-items: flex-start;
+	flex-direction: column;
+	border-top: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	padding: 10px;
+}
+.right-part {
+	flex-direction: column;
+	margin-left: 20px;
+}
+.d-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.input {
+	width: 280px;
+	height: 50px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.checkbox {
+	display: flex;
+	margin-top: 30px;
+	position: relative;
+}
+.remember {
+	color: grey;
+}
+.remember:hover::after {
+	content: attr(data-title);
+	position: absolute;
+	width: 250px;
+	padding: 10px;
+	top: 50px;
+	right: 150px;
+	background-color: white;
+	color: grey;
+	border-radius: 10px;
+}
+.right-part div {
+	height: 30px;
+	margin-top: 30px;
+	color: grey;
+	font-size: 1.2rem;
+}
+.right-part div:nth-child(1) {
+	color: grey;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.right-part input {
+	width: 250px;
+	height: 50px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	margin-right: 10%;
+	padding-left: 10%;
+}
+.log-in {
+	width: 150px;
+	height: 50px;
+	font-size: 1.5rem;
+	background-color: #ffc334;
+	border-radius: 10px;
+	background-image: linear-gradient(-30deg, #4fb6e2 0%, #004c6c 100%);
+}
+.right-part div:last-child {
+	width: 150px;
+	height: 50px;
+	margin-left: 130px;
+	font-size: 1.5rem;
+	background-color: #ffc334;
+	border-radius: 10px;
+	background-image: linear-gradient(-30deg, #ffb400 0%, #aa7800 100%);
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.ball {
+	width: 33px;
+	height: 33px;
+	border-radius: 33px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #eaeaea;
+	margin-left: 45%;
+	margin-top: -70px; 
+}

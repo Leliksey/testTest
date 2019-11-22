@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/media.css">
+	<script src="./js/script.js"></script>
+</head>
+<body class="d-flex">
+	<div id="bg-img" class="d-flex">
+		<form action="action.php" method="POST" id="form">
+			<section class="form-header d-flex">
+				<div class="ellipse d-flex">
+					<img src="img/ellipse.png">
+				</div>
+				Login To Your Account / Register New
+			</section>
+			<section class="d-grid">
+				<section class="left-part d-flex">
+					<div class="ball d-flex">/</div>
+					<input type="text" class="input" name="userName" id="login-name" placeholder="User Name">
+					<input type="password" class="input" name="userPassword" placeholder="Password" id="login-password">
+					<div class="checkbox">
+						<input type="checkbox" name="check" >
+						<span class="remember" data-title="You no longer need to enter a password every time you use the site">Remember My password</span>
+						<div class="log-in d-flex" id="login"><a href="#">Login</a></div>
+					</div>
+				</section>
+				<section class="right-part">
+					<div>Register</div>
+					<div>Email</div>
+					<input type="Email" name="userEmail" id="mail">
+					<div>User Name</div>
+					<input type="text" name="userName-reg" id="nameUser">
+					<div>Password</div>
+					<input type="password" name="userPassword-reg" id="passwordUser">
+					<div class="register d-flex" id="reg"><a href="#">Register</a></div>
+				</section>
+			</section>
+		</form>
+	</div>
+</body>
+</html>
